@@ -1,1 +1,4 @@
-This app will send allow you to pay forward your coffee
+= H1 Jittr
+<em>This app will allow you to pay it forward!</em>
+
+ <b>Send a coffee to a friend, fo, or coworker!</b>

@@ -1,4 +1,4 @@
 = Jittr
 <em>This app will allow you to pay it forward!</em>
 
- _Send a coffee to a friend, fo, or coworker!_
+ *Send a coffee to a friend, fo, or coworker!*

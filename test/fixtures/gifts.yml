@@ -2,6 +2,8 @@
 
 one:
   message: MyString
+  from: MyString
 
 two:
   message: MyString
+  from: MyString

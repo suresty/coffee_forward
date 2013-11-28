@@ -1,3 +1,3 @@
 class Gift < ActiveRecord::Base
-  attr_accessible :message
+  attr_accessible :from, :message
 end

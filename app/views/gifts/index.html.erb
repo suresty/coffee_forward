@@ -1,0 +1,30 @@
+<div class='row'>
+	<div class='span2'>
+	<img src='/assets/beans.jpg' width='144' height='144' class='img-circle'/>
+	</div>
+	<div class='span5'>
+		<h1>
+			Tyler the Creator
+		</h1>
+
+		<p class='lead'>
+			<i class='icon-gift'></i>
+			Frappaccino, extra mocha frap frap fap fap fap 
+		</p>
+	</div>
+
+</div>
+
+<div class='row form-row'>
+	<div class='span8'>
+	<h4>
+	Give a coffee to Tyler:
+	</h4>
+	<%= form_for Gift.new, :html => {:class => "form-inline" } do |f| %>
+		<%= f.text_field :from, :class => "input-small", :placeholder => "With hate" %>
+		<%= f.text_field :message, :class => "input-small", :placeholder => "Message" %>
+		<%= f.submit "Give Coffee", :class => "btn-inverse btn" %>
+		 
+	<% end %>
+	</div>
+</div>
